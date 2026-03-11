@@ -87,7 +87,7 @@ const HeroSection = () => {
           {/* Social links */}
           <div className="flex items-center gap-5 mt-8 justify-center lg:justify-start animate-fade-up delay-500">
             <a
-              href="https://linkedin.com/in/abhikanani"
+              href="https://linkedin.com/in/abhikanani43"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-200"
@@ -98,7 +98,7 @@ const HeroSection = () => {
               </svg>
             </a>
             <a
-              href="https://github.com/abhikanani"
+              href="https://github.com/abhikanani43"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-200"
@@ -109,7 +109,7 @@ const HeroSection = () => {
               </svg>
             </a>
             <a
-              href="mailto:abhikanani@email.com"
+              href="mailto:abhikanani43@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors duration-200"
               aria-label="Email"
             >
@@ -135,7 +135,7 @@ const HeroSection = () => {
             >
               <img
                 src={profileImg}
-                alt="Abhi Kanani — Frontend Developer"
+                alt="Abhi Kanani"
                 className="w-52 h-52 lg:w-72 lg:h-72 rounded-full object-cover object-top"
               />
             </div>
