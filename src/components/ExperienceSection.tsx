@@ -8,7 +8,7 @@ const experiences = [
     description: [
       "Architected and delivered 8+ admin portal modules using Vue 3 Composition API and Vuetify, serving as the primary UI layer for an HR SaaS platform with 500+ active users",
       "Engineered subscription lifecycle and billing management UI with REST API integration, handling plan upgrades, downgrades, and webhook-driven status sync",
-      "Built real-time analytics dashboards with dynamic charting, filterable data tables, and live polling — reducing manual reporting time for HR teams",
+      "Built real-time analytics dashboards with dynamic charting, filterable data tables, and live polling, reducing manual reporting time for HR teams",
       "Optimized critical API call chains and implemented lazy loading strategies, improving average page load performance by ~35%",
     ],
     tags: ["Vue 3", "Composition API", "Vuetify", "REST APIs", "JavaScript", "Python", "Webhooks", "Performance"],
