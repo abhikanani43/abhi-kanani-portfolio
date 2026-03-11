@@ -2,7 +2,7 @@ const experiences = [
   {
     role: "Software Developer Intern",
     company: "uClockit HR",
-    period: "2024 – 2025",
+    period: "Sep 2024 – Present",
     type: "Full-time Internship",
     color: "hsl(var(--primary))",
     description: [
@@ -11,18 +11,18 @@ const experiences = [
       "Built interactive analytics dashboards with real-time data visualization",
       "Collaborated with backend team to optimize API endpoints and improve page load performance",
     ],
-    tags: ["Vue 3", "Vuetify", "REST APIs", "JavaScript", "Analytics"],
+    tags: ["Vue 3", "Vuetify", "REST APIs", "JavaScript", "Analytics", "Python"],
   },
   {
-    role: "AI Intern",
+    role: "AI/Business analytics Teaching assistant",
     company: "RACE",
-    period: "2024",
+    period: "Jul 2024 - Present",
     type: "Internship",
     color: "hsl(var(--secondary))",
     description: [
-      "Coordinated AI/ML program delivery for student cohorts across multiple batches",
-      "Mentored participants on real-world ML projects, improving delivery quality and engagement",
-      "Assisted in designing curriculum content for AI fundamentals and hands-on workshops",
+      "Coordinated with mentors, AI/ML program delivery for student cohorts across multiple batches",
+      "Guided participants on AI projects, improving delivery quality and engagement",
+      "Assisted in designing curricula content for AI fundamentals and hands-on labs from azure certification tranings",
       "Evaluated participant projects and provided structured technical feedback",
     ],
     tags: ["AI/ML", "Program Coordination", "Mentoring", "Python"],
