@@ -14,10 +14,10 @@ const projects = [
     borderColor: "hsl(var(--primary) / 0.3)",
   },
   {
-    title: "EXPENZO",
+    title: "LLM-based Automated Code Review System",
     description:
-      "A personal finance and expense management application that enables users to track daily expenses, set budgets, visualize spending patterns via charts, and gain insights into their financial habits with categorized reports.",
-    tags: ["Vue.js", "Python", "Chart.js", "REST APIs", "Axios"],
+      "Multi-model code review pipeline using LLaMA, Gemma, and Mixtral via Groq, delivering automated analysis for code quality, security, and performance bottlenecks - eliminating manual review overhead.",
+    tags: ["Streamlit", "Python", "LLaMA", "Gemma", "Mixtral", "Pandas"],
     status: "Live",
     links: {
       github: "#",
