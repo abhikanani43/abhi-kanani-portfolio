@@ -136,7 +136,7 @@ const HeroSection = () => {
               <img
                 src={profileImg}
                 alt="Abhi Kanani"
-                className="w-52 h-52 lg:w-72 lg:h-72 rounded-full object-cover object-top"
+                className="w-52 h-52 lg:w-72 lg:h-72 rounded-full object-cover object-center"
               />
             </div>
           </div>
