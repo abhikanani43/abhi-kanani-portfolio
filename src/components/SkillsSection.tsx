@@ -12,12 +12,12 @@ const skillCategories = [
   {
     title: "AI & Tools",
     icon: "🤖",
-    skills: ["CodeWhisperer", "Codex", "GenAI Tools"],
+    skills: ["CodeWhisperer", "Codex", "Streamlit", "HuggingFace", "Pandas", "scikit learn", "Keras", "GenAI Tools"],
   },
   {
-    title: "DevOps & Tooling",
+    title: "DevOps & Cloud",
     icon: "🛠️",
-    skills: ["Git", "Docker", "VS Code"],
+    skills: ["GCP", "AWS", "Docker", "CI/CD", "Click-up"],
   },
 ];
 
