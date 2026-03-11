@@ -3,7 +3,7 @@ const AboutSection = () => {
     { label: "Internships", value: "2+" },
     { label: "Projects Built", value: "10+" },
     { label: "Technologies", value: "15+" },
-    { label: "Year of Study", value: "3rd" },
+    { label: "Years of Experience", value: "1+" },
   ];
 
   return (
@@ -26,8 +26,8 @@ const AboutSection = () => {
                 using <span className="text-foreground font-medium">Vue.js, JavaScript, HTML, CSS</span>, and Python.
               </p>
               <p>
-                I've interned as a Software Developer at uClockit HR and as an AI Intern at RACE, 
-                where I bridged frontend engineering with emerging AI tooling — using 
+                I've interned as a Software Developer at uClockit HR and as an AI/Business analytics Teaching assistant at RACE, 
+                where I bridged frontend engineering with emerging AI tooling using 
                 <span className="text-foreground font-medium"> CodeWhisperer, Codex, and GenAI tools</span> to 
                 accelerate product development.
               </p>
