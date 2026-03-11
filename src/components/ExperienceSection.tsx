@@ -6,12 +6,13 @@ const experiences = [
     type: "Full-time Internship",
     color: "hsl(var(--primary))",
     description: [
-      "Developed and maintained admin portal features using Vue 3 and Vuetify for an HR SaaS platform",
-      "Implemented subscription workflows and billing management UI with REST API integration",
-      "Built interactive analytics dashboards with real-time data visualization",
-      "Collaborated with backend team to optimize API endpoints and improve page load performance",
+      "Architected and delivered 8+ admin portal modules using Vue 3 Composition API and Vuetify, serving as the primary UI layer for an HR SaaS platform with 500+ active users",
+      "Focused on user centric access points for internal sales team for customer life cycle management and rankings, reports and multi feature customer management cohort using vue and python"
+      "Engineered subscription lifecycle and billing management UI with REST API integration, handling plan upgrades, downgrades, and webhook-driven status sync",
+      "Built a global dashboards with dynamic charting for customer statistics, filterable data tables, and live polling, reducing manual reporting time for HR teams",
+      "Optimized critical API call chains and implemented lazy loading strategies, improving average page load performance by 35%",
     ],
-    tags: ["Vue 3", "Vuetify", "REST APIs", "JavaScript", "Analytics", "Python"],
+    tags: ["Vue 3", "Composition API", "Vuetify", "REST APIs", "JavaScript", "Python", "Webhooks", "Performance"],
   },
   {
     role: "AI/Business analytics Teaching assistant",
@@ -28,7 +29,6 @@ const experiences = [
     tags: ["AI/ML", "Program Coordination", "Mentoring", "Python"],
   },
 ];
-
 const ExperienceSection = () => {
   return (
     <section id="experience" className="py-24 px-6">
@@ -42,14 +42,12 @@ const ExperienceSection = () => {
           </h2>
           <p className="section-subheading">Where I've built real products that shipped to users</p>
         </div>
-
         <div className="relative">
           {/* Timeline line */}
           <div
             className="absolute left-6 top-0 bottom-0 w-px"
             style={{ background: "hsl(var(--border))" }}
           />
-
           <div className="space-y-10">
             {experiences.map((exp, index) => (
               <div key={index} className="relative pl-16">
@@ -62,7 +60,6 @@ const ExperienceSection = () => {
                     boxShadow: `0 0 12px ${exp.color}`,
                   }}
                 />
-
                 <div className="glass-card rounded-2xl p-6 hover-lift">
                   <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
                     <div>
@@ -89,7 +86,6 @@ const ExperienceSection = () => {
                       </span>
                     </div>
                   </div>
-
                   <ul className="space-y-2 mb-4">
                     {exp.description.map((point, i) => (
                       <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
@@ -101,7 +97,6 @@ const ExperienceSection = () => {
                       </li>
                     ))}
                   </ul>
-
                   <div className="flex flex-wrap gap-2">
                     {exp.tags.map((tag) => (
                       <span
@@ -125,5 +120,4 @@ const ExperienceSection = () => {
     </section>
   );
 };
-
 export default ExperienceSection;
