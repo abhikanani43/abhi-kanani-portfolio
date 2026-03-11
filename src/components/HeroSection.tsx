@@ -69,7 +69,7 @@ const HeroSection = () => {
               </svg>
             </a>
             <a
-              href="/Abhi_Kanani_Resume.pdf"
+              href="/Abhi_Kanani_Tech_Resume.pdf"
               download
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm border transition-all duration-300 hover:-translate-y-1 hover:bg-muted"
               style={{
