@@ -4,21 +4,21 @@ import stageImg from "@/assets/achievement-stage.jpeg";
 
 const achievements = [
   {
-    title: "Best Intern Recognition",
+    title: "Robot development using IOT",
     subtitle: "MD Certificate Ceremony",
     description:
-      "Recognized as Best Intern at uClockit HR by the Managing Director for exceptional contributions to the admin portal and subscription management system.",
+      "Built an IoT-controlled robot with real-time sensor feedback, MQTT-based remote actuation, and PWM motor control. Implemented embedded firmware on ESP32 with interrupt-driven I/O and wireless telemetry over Wi-Fi.",
     image: certificateImg,
-    badge: "🏆 Best Intern",
+    badge: "🏆 Robot development",
     color: "hsl(var(--primary))",
   },
   {
-    title: "Awarded on Stage for Performance",
+    title: "Best Intern Recognition",
     subtitle: "Annual Recognition Event",
     description:
-      "Honored on stage at a university-level event for outstanding performance and contribution in the internship program, recognized in front of peers and leadership.",
+      "Recognized as Best Intern by RACE among 20+ interns for exceptional contributions and outstanding impact as a AI/Business analytics Teaching assistant.",
     image: stageImg,
-    badge: "⭐ Stage Award",
+    badge: "⭐ Best Intern",
     color: "hsl(var(--secondary))",
   },
 ];
