@@ -46,7 +46,7 @@ const ContactSection = () => {
             Get In <span className="gradient-text">Touch</span>
           </h2>
           <p className="section-subheading max-w-xl mx-auto">
-            I'm currently open to new opportunities. Whether you have a question, a project, or just want to say hi — my inbox is always open.
+            Open to collaboration where execution meets ambition. If you're building something meaningful- let's talk.
           </p>
         </div>
 
