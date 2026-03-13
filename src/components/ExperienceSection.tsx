@@ -2,7 +2,7 @@ const experiences = [
   {
     role: "Software Developer Intern",
     company: "uClockit HR",
-    period: "Sep 2024 – Present",
+    period: "Sep 2025 – Present",
     type: "Full-time Internship",
     color: "hsl(var(--primary))",
     description: [
